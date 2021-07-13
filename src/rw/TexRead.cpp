@@ -294,7 +294,7 @@ CanVideoCardDoDXT(void)
 #ifdef LIBRW
 	// TODO
 #ifdef RW_OPENGL
-	return false;
+	return true;
 #else
 	return true;
 #endif
